@@ -1,0 +1,42 @@
+.drawer {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    transform: translateX(-280px);
+    transition: transform 0.28s ease-in;
+    z-index: 90;
+    box-sizing: border-box;
+}
+
+.drawer ul {
+    list-style: none;
+}
+
+.drawer.open {
+    transform: translateX(0);
+}
+
+.drawer ul li {
+    margin-top: 23px;
+}
+
+.drawer ul li a {
+    font-size: 30px;
+    margin-top: 23px;
+    color: #363f54;
+    text-decoration: none;
+    position: relative;
+    padding: 0 20px 10px 20px;
+    transition: opacity 0.26s ease-in;
+}
+
+.drawer ul li a:hover {
+    opacity: 0.7;
+}
+
+.drawer ul li a.active {
+    border: 1px solid black;
+}

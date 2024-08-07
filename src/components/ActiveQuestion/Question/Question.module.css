@@ -1,0 +1,4 @@
+.quest {
+    display: flex;
+    justify-content: space-between;
+}

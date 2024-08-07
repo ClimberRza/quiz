@@ -1,0 +1,28 @@
+.answerItem {
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 7px 0 7px 0;
+    border-radius: 5px;
+}
+
+.mouseOn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease-in-out;
+}
+
+.error {
+    background: rgba(240, 87, 108, .7);
+    transition: background 0.3s ease-in;
+}
+
+.correct {
+    background: rgba(161, 240, 69, .7);
+    transition: background 0.3s ease-in;
+}
+
+.notActive {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in;
+    cursor: default;
+}

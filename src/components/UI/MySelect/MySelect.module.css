@@ -1,0 +1,22 @@
+.mySelect {
+    margin-bottom: 11px;
+    margin-top: 19px;
+}
+
+.mySelect label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 19px;
+    display: block;
+}
+
+.mySelect select {
+    display: block;
+    width: 100%;
+    height: 29px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}

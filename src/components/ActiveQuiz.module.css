@@ -1,0 +1,7 @@
+.activeQuiz {
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 19px;
+    margin-top: 13px;
+    box-sizing: border-box;
+}
